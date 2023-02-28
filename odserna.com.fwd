@@ -1,0 +1,14 @@
+$ORIGIN odserna.com.
+
+$TTL 3H
+@	IN SOA	parcial.odserna.com. root@odserna.com.  (
+					0	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN	NS	parcial.odserna.com.
+
+;host en la zona
+parcial	IN	A	192.168.50.3
+www	IN	CNAME	parcial
